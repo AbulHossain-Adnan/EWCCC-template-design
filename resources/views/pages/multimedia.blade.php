@@ -412,26 +412,25 @@
         <div class="terms-condition-area pt-100 pb-70">
             <div class="container">
             <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-9">
             <div class="row">
-            <div class="col-sm-12 ">
-            
-            <div class="form-group row">
-                <label for="inputPassword" class="col-sm-2 col-form-label">Sort By</label>
-                <div class="col-sm-3 mb-2">
-                <select class="form-select" aria-label="Default select example">
+            <div class="col-sm-6 mb-2">
+                    <div class="row align-items-center">
+                    <div class="col-auto">
+                        <label for="inputPassword6" class="col-form-label">Sort By :</label>
+                    </div>
+                    <div class="col-auto">
+                    <select class="form-select" aria-label="Default select example">
                                     <option selected>choose one</option>
                                     <option value="1">Male</option>
                                     <option value="2">Female</option>
                                     <option value="3">Other</option>
                                     </select>
-                </div>
-              
-            </div>
-          
+                    </div>
+                    </div>
             </div>
             </div>
-    </div>
+   </div> 
           
 
             <div class="col-sm-9">
