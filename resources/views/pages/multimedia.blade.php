@@ -485,9 +485,26 @@
                 Bashunshora group</p>
             <a href="#"  style="float:right;" >See All ></a>
             </div>
+            
             </div>
+            <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-end">
+                <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+            </nav>
+            
 
             </div>
+
+            
 
             <div class="col-sm-3">
             <div class="col-sm-11 m-auto">
