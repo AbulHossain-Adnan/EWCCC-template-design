@@ -1,0 +1,966 @@
+/*================================================
+Default CSS
+=================================================*/
+$main-color: #e32845;
+$heading-color: #ffffff;
+$body-color:#ffffff;
+
+// Switch css
+.switch-box {
+    position: fixed;
+    z-index: 1;
+    left: 3%;
+    bottom: 63px;
+
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+
+        input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+    }
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #4d4949;
+        transition: 0.4s;
+
+        &:before {
+            position: absolute;
+            content: "";
+            height: 30px;
+            width: 30px;
+            left: 2.5px;
+            bottom: 4px;
+            top: 0;
+            bottom: 0;
+            margin: auto 0;
+            transition: 0.4s;
+            box-shadow: 0 0px 15px #2020203d;
+            background: url(../../assets/images/night.png);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+    input:checked + .slider {
+        background-color: #cbc1c1;
+    }
+    input:focus + .slider {
+        background-color: #4d4949;
+    }
+    input:checked + .slider:before {
+        transform: translateX(24px);
+        background: url(../../assets/images/sunny.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .slider {
+        &.round {
+            border-radius: 50px;
+
+            &:before {
+                border-radius: 50%;
+            } 
+        }
+    }
+}
+
+// Dark Style CSS
+.theme-dark {
+    body {
+        background-color: #000000;
+        color: #f1f1f1;
+    }
+    p {
+        color: #f1f1f1;
+        
+        a {
+            color: #f1f1f1 !important;
+
+            &:hover {
+                color: $main-color !important;
+            }
+        }
+    }
+    .bg-f4f6f9 {
+        background-color: #0e0e0e;
+    }
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        color: $heading-color !important;
+
+        a {
+            color: $heading-color !important;
+
+            &:hover {
+                color: $main-color !important;
+            }
+        }
+    }
+    .nav-bg-1 {
+        background-color: #000000;
+    }
+    .nav-bg-2 {
+        background-color: #000000;
+    }
+    .navbar-area {
+        .navbar-brand {
+            .white-logo {
+                display: block;
+            }
+            .main-logo {
+                display: none;
+            }
+        }
+    }
+    .desktop-nav {
+        .navbar {
+            .navbar-nav {
+                .nav-item {
+                    a {
+                        color: $body-color;
+
+                        &:hover, &:focus, &.active {
+                            color: $main-color;
+                        }
+                    }
+                    &:hover, &:focus, &.active {
+                        a {
+                            color: $main-color;
+                        }
+                    }
+                    .dropdown-menu {
+                        background: #0e0e0e;
+                        
+                        li {
+                            a {
+                                color: $body-color;
+                                border-bottom: 1px dashed #000000;
+                                
+                                &:hover, &:focus, &.active {
+                                    color: $main-color;
+                                }
+                            }
+                            .dropdown-menu {
+                                li {
+                                    a {
+                                        color: $body-color;
+                                        border-bottom: 1px dashed #000000;
+
+                                        &:hover, &:focus, &.active {
+                                            color: $main-color;
+                                        }
+                                    }
+                                    .dropdown-menu {
+                                        li {
+                                            a {
+                                                color: $body-color;
+
+                                                &:hover, &:focus, &.active {
+                                                    color: $main-color;
+                                                }
+                                            }
+                                            .dropdown-menu {
+                                                li {
+                                                    a {
+                                                        color: $body-color;
+                                                        
+                                                        &:hover, &:focus, &.active {
+                                                            color: $main-color;
+                                                        }
+                                                    }
+                                                    .dropdown-menu {
+                                                        li {
+                                                            a {
+                                                                color: $body-color;
+                                                                
+                                                                &:hover, &:focus, &.active {
+                                                                    color: $main-color;
+                                                                }
+                                                            }
+                                                            .dropdown-menu {
+                                                                li {
+                                                                    a {
+                                                                        color: $body-color;
+                                                                        
+                                                                        &:hover, &:focus, &.active {
+                                                                            color: $main-color;
+                                                                        }
+                                                                    }
+                                                                    .dropdown-menu {
+                                                                        li {
+                                                                            a {
+                                                                                color: $body-color;
+
+                                                                                &:hover, &:focus, &.active {
+                                                                                    color: $main-color;
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                    &.active {
+                                                                        a {
+                                                                            color: $main-color;
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                            &.active {
+                                                                a {
+                                                                    color: $main-color;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                    &.active {
+                                                        a {
+                                                            color: $main-color;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            &.active {
+                                                a {
+                                                    color: $main-color;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    &.active {
+                                        a {
+                                            color: $main-color;
+                                        }
+                                    }
+                                }
+                            }
+                            &.active {
+                                a {
+                                    color: $main-color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .others-options {
+                ul {
+                    li {
+                        .call-now {
+                            a {
+                                color: $body-color;
+                            }
+                        }
+                        .default-btn {
+                            color: $body-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .others-option-for-responsive {   
+        .others-options {
+            background-color: #0e0e0e;
+            ul {
+                li {
+                    .call-now {
+                        a {
+                            color: $heading-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //Preloader
+    .preloader-area {
+        background-color: #000000;
+    }
+    //Default btn
+    .default-btn {
+        color: $body-color;
+    }
+    .read-more-btn {
+        color: $heading-color;
+    }
+    //Top header
+    .top-header-area {
+        background-color: #0e0e0e;
+    }
+
+    //Banner
+    .banner-area {
+        background-color: #0e0e0e;
+    }
+    .slider-content {
+        &.style2 {
+            background-color: #000000;
+            p {
+                color: $body-color;
+            }
+        }
+    }
+
+    //Academic
+    .single-academics-card {
+        background-color: #0e0e0e;
+    }
+    .estemate-form {
+       background-color: #0e0e0e;
+       .form-group {
+           .form-control {
+               background-color: #000000;
+               color: $body-color;
+               border-color: #383737;
+            }
+        }
+    }
+    //Courses
+    .single-courses-card {
+        .courses-content {
+            background-color: #000000;
+        }
+        &.style2 {
+            .courses-content {
+                background-color: #0e0e0e;
+            }
+        }
+        &.style4 {
+            .courses-content {
+                background-color: #0e0e0e;
+            }
+        }
+    }
+    .courses-details {
+        .courses-card {
+            .list {
+                ul {
+                    li {
+                        span {
+                            color: $body-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .description {
+        .nav-tabs {
+            background-color: #0e0e0e;
+            .nav-link {
+                color: $body-color;
+            }
+        }
+    }
+    .curriculum {
+        .curriculum-list {
+            background-color: #0e0e0e;
+        }
+    }
+    .single-reviews-card {
+        background-color: #0e0e0e;
+    }
+    .review-form {
+        .form-group {
+            .form-control {
+               background-color: #0e0e0e;
+                color: $body-color;
+            }
+        }
+    }
+    .courses-slider {
+        &.owl-theme {
+            .owl-nav [class*=owl-] {
+                background-color: #424141;
+                color: $body-color;
+            }
+        }
+    
+    }
+    .enroll-courses {
+        background-color: #0e0e0e;
+        .list {
+            ul {
+                li {
+                    span {
+                        color: $body-color;
+                    }
+                }
+            }
+        }
+    }
+    //Campus
+    .single-campus-card {
+        .campus-content {
+            background-color: #0e0e0e;
+        }
+        &.style2 {
+            .campus-content {
+                background-color: #000000;
+            }
+        }
+    }
+    .campus-content {
+        &.style-2 {
+           background-color: #000000;
+        }
+    }
+    .campus-slider {
+        &.owl-theme {
+            .owl-nav [class*=owl-] {
+                background-color: #424141;
+                color: $body-color;
+            }
+        }
+    }
+    .campus-slider2 {
+        &.owl-theme {
+            .owl-nav [class*=owl-] {
+                background-color: #424141;
+                color: $body-color;
+            }
+        }
+    }
+    .counter-card {
+        h1 {
+            .target {
+                &.heading-color {
+                    color: $body-color;
+                }
+            }
+        }
+    }
+
+    //Health Care
+    .single-health-care-card {
+        .health-care-content {
+            background-color: #0e0e0e;
+        }
+        &.style1 {
+            .health-care-content {
+                background-color: #000000;
+            }
+        }
+        &.style2 {
+            .health-care-content {
+                background-color: #000000;
+            }
+        }
+    }
+    .health-care-slider {
+        &.owl-theme {
+            .owl-nav [class*=owl-] {
+                background-color: #424141;
+                color: $body-color;
+            }
+        }
+    }
+    .tranding {
+        background-color: #0e0e0e;
+    }
+
+    //Events
+    .single-events-card {
+        .events-content {
+            background-color: #000000;
+        }
+        &.style2 {
+            .events-content {
+                background-color: #0e0e0e;
+            }
+        }
+        &.style-3 {
+            .events-content {
+                background-color: #0e0e0e;
+            }
+        }
+        &.style-4 {
+            .events-content {
+                background-color: #0e0e0e;
+            }
+        }
+        .events-image {
+            .date {
+                background-color: #1c1b1b;
+            }
+        }
+    }
+    .events-slider {
+        &.owl-theme {
+            .owl-nav [class*=owl-] {
+                background-color: #424141;
+            }
+        }
+    }
+    .events-details-left-content {
+        .about-lecturer {
+            .address {
+                .list {
+                    ul {
+                        li {
+                            a {
+                                color: $body-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //Podcasts
+    .single-podcasts-card {
+        &.style2 {
+            .podcast-content {
+                background-color: #000000;
+            }
+        }
+        &.style3 {
+            .podcast-content {
+                background-color: #0e0e0e;
+            }
+        }
+    }
+    //Program
+    .single-program-card {
+        background-color: #000000;
+    }
+    .additional-information {
+        background-color: #0e0e0e;
+        .list {
+            ul {
+                li {
+                    background-color: #000000;
+                    a {
+                        color: $body-color;
+                    }
+                    &:hover {
+                        background-color: $main-color;
+                    }
+                }
+            }
+        }
+    }
+
+    //Alumni
+    .single-alumni-events-card {
+        background-color: #0e0e0e;
+    }
+    .single-alumoni-updates-card {
+        background-color: #0e0e0e;
+    }
+    .interview-content {
+        .interview {
+            span {
+                color: #000000;
+            }
+            h2 {
+                color: #000000 !important;
+            }
+            p {
+                color: #000000;
+            }
+        }
+    }
+    //Page Banner
+    .page-banner-area {
+        &::before {
+            background: rgba(21, 21, 24, 0.8);
+        }
+    }
+
+    //Categories
+    .categories {
+        background-color: #191818;
+        ul {
+            li {
+                a {
+                    color: $body-color;
+                }
+            }
+        }
+    }
+    .subscribe-area {
+        &::before {
+            background: rgba(14, 14, 14, 0.7);
+        }
+    }
+    .serch-content {
+        background-color: #0e0e0e;
+        .form-group {
+            .form-control {
+                background-color: #000000;
+                color: $body-color;
+            }
+            .src-btn {
+                color: $body-color;
+            }
+        }
+    }
+    .category-content {
+        background-color: #0e0e0e;
+        .form-control {
+            background-color: #000000;
+            color: $body-color;
+        }
+    }
+    .academics-list {
+        background-color: #0e0e0e;
+        ul {
+            li {
+                a {
+                    color: $body-color;
+                }
+            }
+        }
+    }
+    .related-download {
+        background-color: #0e0e0e;
+        ul {
+            li {
+                background-color: #000000;
+                a {
+                    color: $body-color;
+                }
+            }
+        }
+    }
+    .category-list {
+        background-color: #0e0e0e;
+        ul {
+            li {
+                a {
+                    color: $body-color;
+                }
+            }
+        }
+    }
+    .related-post-area {
+        background-color: #0e0e0e;
+    }
+    //Pagination
+    .paginations {
+        ul {
+            li {
+                a {
+                    color: $body-color;
+                }
+            }
+        }
+    }
+
+    //Students story
+    .single-stories-card {
+        .stories-content {
+            background-color: #131212;
+        }
+    }
+
+    //News
+    .single-news-card {
+        .news-content {
+            background-color: #0e0e0e;
+            .list {
+                ul {
+                    li {
+                        a {
+                            color: $body-color;
+                        }
+                    }
+                }
+            }
+        }
+        &.style2 {
+            .news-content {
+                background-color: #000000;
+            }
+        }
+        &.style3 {
+            background-color: #000000;
+            .news-content {
+                background-color: #000000;
+            }
+        }
+    }
+    .news-details {
+        .news-simple-card {
+            .list {
+                ul {
+                    li {
+                        a {
+                            color: $body-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .tags-and-share {
+        .tags {
+            ul {
+                li {
+                    span {
+                        color: $body-color;
+                    }
+                    a {
+                        color: $body-color;
+                    }
+                }
+            }
+        }
+        .share {
+            ul {
+                li {
+                    span {
+                        color: $body-color ;
+                    }
+                }
+            }
+        }
+    }
+    .reply-area {
+        .reply-form {
+            .form-group {
+                .form-control {
+                    background-color: #0e0e0e;
+                    color: $body-color;
+                    &::placeholder {
+                        color: $body-color;
+                    }
+                }
+            }
+        }
+    }
+    .news-slider {
+        &.owl-theme {
+            .owl-nav [class*=owl-] {
+               background-color: #424141;
+               color: $body-color;
+            }
+        }
+    }
+    //Faq
+    .accordion {
+        .accordion-item {
+            background-color: #0e0e0e;
+            .accordion-button {
+                color: $heading-color;
+                &::after {
+                    color: $body-color;
+                }
+            }
+        }
+    }
+    //Login
+    .login {
+       background-color: #0e0e0e;
+       .form-group {
+           .form-control {
+            background-color: #000000;
+            color: $body-color;
+                &::placeholder {
+                    color: $body-color;
+                }
+            }
+        }
+        a {
+            color: $body-color;
+        }
+    }
+    //Register
+    .register {
+        background-color: #0e0e0e;
+        .form-group {
+            .form-control {
+             background-color: #000000;
+             color: $body-color;
+                &::placeholder {
+                    color: $body-color;
+                }
+            }
+        }
+    }
+    //Password
+    .password {
+        background-color: #0e0e0e;
+        .form-group {
+            .form-control {
+             background-color: #000000;
+             color: $body-color;
+                &::placeholder {
+                    color: $body-color;
+                }
+            }
+        }
+    }
+    //Privacy Policy
+    .privacy-content {
+        .list {
+            ul {
+                li {
+                    color: $body-color;
+                }
+            }
+        }
+    }
+    //Terms and Condition
+    .condition-content {
+        .list {
+            ul {
+                li {
+                    color: $body-color;
+                }
+            }
+        }
+    }
+
+    //Contacts
+    .contacts-form {
+        background-color: #0e0e0e;
+        .form-group {
+            .form-control {
+                background-color: #000000;
+                color: $body-color;
+            }
+        }
+    }
+    .contact-and-address {
+        .contact-and-address-content {
+            .contact-card {
+                background-color: #0e0e0e;
+            }
+        }
+    }
+
+    //Modal
+    .navbar-area {
+        &.nav-bg-2 {
+            .desktop-nav {
+                .others-options {
+                    .icon {
+                        color: $body-color;
+                    }
+                }
+            }
+        }
+    }
+    .modal {
+        &.right {
+            .modal-content {
+                background-color: #151414;
+            }
+        }
+        .modal-body {
+            .white-logo {
+                display: block;
+            }
+            .main-logo {
+                display: none;
+            }
+            .contact-form {
+                #contactForm {
+                    .form-group {
+                        .form-control {
+                           background-color: #000000;
+                           color: $body-color;
+                           &::placeholder {
+                               color: $body-color;
+                           }
+                        }
+                    }
+                }
+            }
+            .sidebar-contact-info {
+                .info-list {
+                    li {
+                        color: $body-color;
+                        a {
+                            color: $body-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //Footer
+    .footer-area {
+        background-color: #121111;
+    }
+    .copyright-area {
+        background-color: #1b1a1a;
+    }
+    //Admission
+    .admisssion-area {
+        &.admission-bg {
+            &::before {
+                background: rgba(7, 7, 7, 0.75);
+            }
+        }
+    }
+    
+
+    // Responsive CSS
+    @media only screen and (max-width: 767px) {
+        .podcast-content {
+            background-color: #0e0e0e;
+        }
+        .slider-content {
+            &.style2 {
+                background-color: transparent;
+            }
+        }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .slider-content {
+            &.style2 {
+                background-color: transparent;
+            }
+        }
+    }
+    @media only screen and (max-width: 991px) {
+        .navbar-area {
+            background-color: #000000;
+            &.nav-bg-3 {
+                border-bottom: none;
+                &.is-sticky {
+                    background: #000000;
+                }
+            }
+        }
+        .mobile-responsive-nav {
+            .mobile-responsive-menu {
+                .logo {
+                    .white-logo {
+                        display: block;
+                    }
+                    .main-logo {
+                        display: none;
+                    }
+                }
+                &.mean-container {
+                    .mean-nav {
+                        background-color: #000000;
+                        ul {
+                            background-color: #000000;
+                            li {
+                                a {
+                                    border-top-color: #424141;
+                                    color: $body-color !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+           
+        }
+    }
+}
+
