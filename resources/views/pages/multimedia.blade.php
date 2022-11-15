@@ -39,6 +39,13 @@
             border: 1px solid rgba(89, 90, 89, 0.25);
             padding-left: 15px;
         }
+        .page-banner-area {
+        /* background-image: url(../images/register3.jpg); */
+        background-color: #F5EFEF00;
+        padding-top:100px;
+        padding-bottom:100px;
+
+        }
         
     </style>
     </head>
@@ -381,7 +388,7 @@
         <!-- End Sidebar Modal -->
 
         <!--Start Page Banner-->
-        <div class="page-banner-area bg-2">
+        <div class="page-banner-area">
             <div class="container">
                 <div class="page-banner-content">
                     <div class="row">
@@ -440,7 +447,7 @@
 
             <div class="row mt-2" style="background-color:#EBF4FF;">
                 <div class="col-sm-2 mt-4">
-                <img src="assets/images/bg.png" alt="logo">
+                <img src="assets/images/food2.png" alt="logo">
                 </div>
                 <div class="col-sm-10 mt-3">
                <b>Fashon Designer</b>
@@ -453,7 +460,20 @@
 
             <div class="row mt-2" style="background-color:#EBF4FF;">
                 <div class="col-sm-2 mt-4">
-                <img src="assets/images/bg.png" alt="logo">
+                <img src="assets/images/bkash.png" alt="logo">
+                </div>
+                <div class="col-sm-10 mt-3">
+               <b>Fashon Designer</b>
+                <p>Bashunshora group<br>
+                Bashunshora group<br>
+                Bashunshora group</p>
+                <a href="#"  style="float:right;" >See All ></a>
+                </div>
+            </div>
+
+            <div class="row mt-2" style="background-color:#EBF4FF;">
+                <div class="col-sm-2 mt-4">
+                <img src="assets/images/regal.png" alt="logo">
                 </div>
                 <div class="col-sm-10 mt-3">
                <b>Fashon Designer</b>
@@ -466,7 +486,7 @@
 
             <div class="row mt-2" style="background-color:#EBF4FF;">
             <div class="col-sm-2 m-auto">
-            <img src="assets/images/bg.png" alt="logo">
+            <img src="assets/images/danish.png" alt="logo">
             </div>
             <div class="col-sm-10 mt-3">
             <b>Fashon Designer</b>
@@ -517,35 +537,35 @@
                     </form>
                     </div>
                      <div class="col-sm-12 mt-5" style="margin-left:20px;">
-                        <h5>Job Type:</h5>
+                        <h4>Job Type:</h4>
                         <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <h6> <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked></h6>
                         <label class="form-check-label" for="flexCheckDefault">
-                           <h6>Any Type:</h6>
+                           <h5>Any Type:</h5>
                         </label>
                         </div>
                         <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <h6><input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" ></h6>
                         <label class="form-check-label" for="flexCheckChecked">
-                            Full Time
+                             <h5>Full-Time  (140)</h5>
                         </label>
                         </div>
                         <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                        <h6> <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"></h6>
                         <label class="form-check-label" for="flexCheckChecked">
-                            Full Time
+                        <h5>Part-Time  (140)</h5>
                         </label>
                         </div>
                         <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                       <h6> <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"></h6>
                         <label class="form-check-label" for="flexCheckChecked">
-                            Full Time
+                        <h5>half-Time  (140)</h5>
                         </label>
                         </div>
                         <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <h6> <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"></h6>
                         <label class="form-check-label" for="flexCheckChecked">
-                            Full Time
+                        <h5>Internship  (9500)</h5>
                         </label>
                         </div>
                    
@@ -554,33 +574,34 @@
                     <div class="col-sm-12 mt-5" style="margin-left:20px">
                        <h5>Salary/HR</h5>
                         <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <h6> <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked " checked></h6>
                         <label class="form-check-label" for="flexCheckDefault">
-                           Any Type:
+                           <h5>Any Rate </h5>
                         </label>
                         </div>
                         <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <h6> <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" ></h6>
                         <label class="form-check-label" for="flexCheckChecked">
-                            Full Time
+                           <h5>$00 -- $10000</h5>
                         </label>
                         </div>
                         <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                        <h6> <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"></h6>
                         <label class="form-check-label" for="flexCheckChecked">
-                            Full Time
+                        <h5>$10000 -- $20000</h5>
                         </label>
                         </div>
                         <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <h6> <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"></h6>
                         <label class="form-check-label" for="flexCheckChecked">
-                            Full Time
+                        <h5>$20000 -- $30000</h5>
+
                         </label>
                         </div>
                         <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <h6> <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"></h6>
                         <label class="form-check-label" for="flexCheckChecked">
-                            Full Time
+                        <h5>$30000 -- $40000</h5>
                         </label>
                         </div>
                    
