@@ -385,18 +385,7 @@
             <div class="container">
                 <div class="page-banner-content">
                     <div class="row">
-                        <div class="col-sm-2">
-                       
-                        <img src="assets/images/bg.jpg" alt="logo">
-                      
-                   
-                        </div>
-                        <div class="col-sm-6">
-                        <h3 class="text-white">BASHUNDHARA GROUP</h3>
-                        <h5 class="text-white">BASHUNDHARA GROUP</h5>
-                        <h6 class="text-white">BASHUNDHARA GROUP</h6>
-
-                        </div>
+                       <h1>Design Airt and Multimedia</h1>
                       </div>
 
                     <!-- <a class="navbar-brand" href="index.html">
@@ -436,23 +425,24 @@
             <div class="col-sm-9">
             <div class="row" style="background-color:#EBF4FF;">
                 <div class="col-sm-2 m-auto">
-                <img src="assets/images/bg.jpg" alt="logo">
+                <img src="assets/images/bg.png" alt="logo">
                 </div>
-                <div class="col-sm-10 ">
-                <b>Fashon Designer</b>
+                <div class="col-sm-10 mt-3">
+                <h6>Fashon Designer</h6>
                 <p>Bashunshora group<br>
                 Bashunshora group<br>
                 Bashunshora group</p>
+                
                 <a href="#"  style="float:right;" >See All ></a>
                 </div>
             
             </div>
 
             <div class="row mt-2" style="background-color:#EBF4FF;">
-                <div class="col-sm-2 m-auto">
+                <div class="col-sm-2 mt-4">
                 <img src="assets/images/bg.png" alt="logo">
                 </div>
-                <div class="col-sm-10">
+                <div class="col-sm-10 mt-3">
                <b>Fashon Designer</b>
                 <p>Bashunshora group<br>
                 Bashunshora group<br>
@@ -462,10 +452,10 @@
             </div>
 
             <div class="row mt-2" style="background-color:#EBF4FF;">
-                <div class="col-sm-2 m-auto">
-                <img src="assets/images/bg.jpg" alt="logo">
+                <div class="col-sm-2 mt-4">
+                <img src="assets/images/bg.png" alt="logo">
                 </div>
-                <div class="col-sm-10">
+                <div class="col-sm-10 mt-3">
                <b>Fashon Designer</b>
                 <p>Bashunshora group<br>
                 Bashunshora group<br>
@@ -478,7 +468,7 @@
             <div class="col-sm-2 m-auto">
             <img src="assets/images/bg.png" alt="logo">
             </div>
-            <div class="col-sm-10">
+            <div class="col-sm-10 mt-3">
             <b>Fashon Designer</b>
                 <p>Bashunshora group<br>
                 Bashunshora group<br>
@@ -486,7 +476,7 @@
             <a href="#"  style="float:right;" >See All ></a>
             </div>
             
-            </div>
+            </div><br>
             <nav aria-label="Page navigation example">
             <ul class="pagination justify-content-end">
                 <li class="page-item disabled">
