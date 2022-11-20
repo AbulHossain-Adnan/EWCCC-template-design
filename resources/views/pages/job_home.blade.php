@@ -32,8 +32,24 @@
 
         <link rel="icon" type="image/png" href="assets/images/favicon.png">
         <title>Sanu - College University HTML Template</title>
+
+        <style> 
+        .form-control {
+            height: 40px;
+            border: 1px solid rgba(89, 90, 89, 0.25);
+            padding-left: 15px;
+        }
+        .page-banner-area {
+        /* background-image: url(../images/register3.jpg); */
+        background-color: #F5EFEF00;
+        padding-top:100px;
+        padding-bottom:100px;
+
+        }
+        
+    </style>
     </head>
-     <body>
+    <body>
         <!-- Start Preloader Area -->
         <div class="preloader-area">
             <div class="spinner">
@@ -372,22 +388,11 @@
         <!-- End Sidebar Modal -->
 
         <!--Start Page Banner-->
-        <div class="page-banner-area bg-2">
+        <div class="page-banner-area">
             <div class="container">
                 <div class="page-banner-content">
                     <div class="row">
-                        <div class="col-sm-2">
-                       
-                        <img src="assets/images/bg.jpg" alt="logo">
-                      
-                   
-                        </div>
-                        <div class="col-sm-6">
-                        <h3 class="text-white">BASHUNDHARA GROUP</h3>
-                        <h5 class="text-white">BASHUNDHARA GROUP</h5>
-                        <h6 class="text-white">BASHUNDHARA GROUP</h6>
-
-                        </div>
+                       <h1>Design Airt and Multimedia</h1>
                       </div>
 
                     <!-- <a class="navbar-brand" href="index.html">
@@ -402,102 +407,214 @@
         <!--Start Terms And Condition Area-->
         <div class="terms-condition-area pt-100 pb-70">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <div class="condition-content pr-20">
-                            <b>Fashon Designer</b>
-                            <p>BASHUNDHARA GROUP LTD</p>
-                            <p>Vacancy: 3</p>
-                               
-                        
-                            <h6>Job Context</h6>
-                            <h6>A Concernt of BASHUNDHARA GROUP</h6>
-                            <h6>Job Responsibilities</h6>
-
-                            <p>Use the best resume maker as your guide. Getting that dream job can seem like an impossible task.
-                             We’re here to change that. Give yourself a real advantage with the best online resume maker Use the 
-                             best resume maker as your guide. Getting that dream job can seem like an impossible task. We’re here
-                              to change that. Give yourself a real advantage with the best online resume maker Use the best resume
-                               maker as your guide. Getting that dream job can seem like an impossible task. We’re here to change that.
-                                Give yourself a real advantage with the best online resume maker Use the best resume maker as your guide</p>
-        
-                        </div>
-
-                        <div class="condition-content pr-20">
-                            
-
-                                <h6>EDUCATIONAL REQUIRMENT :</h6>
-                            
-                               <p> Use the best resume maker as your guide. Getting that dream job can seem like an impossible task.
-                                We’re here to change that. Give yourself a real advantage with the best online resume maker Use the 
-                                best resume maker as your guide. Getting that dream job can seem like an impossible task. We’re here
-                                 to change that. Give yourself a real advantage with the best online resume maker Use the best resume
-                                  maker as your guide. Getting that dream job can seem like an impossible task. We’re here to change that.
-                                   Give yourself a real advantage with the best online resume maker Use the best resume maker as your guide</p>
-
-                                
-        
-                        </div>
-                        <div class="condition-content pr-20">
-                            
-
-                    
-                               <b> salary :</b><br>
-                               <p>Negotiable</p>
-                               <p>Compensation & Other benifit</p>
-                               <p>mobile-responsive-menu</p>
-                              
-                               <p> to change that. Give yourself a real advantage with the best online resume maker Use the best resume
-                                maker as your guide. Getting that dream job can seem like an impossible task. We’re here to change that.
-                                 Give yourself a real advantage with the best online resume maker Use the best resume maker as your</p>
-
-                               
-    
+            <div class="row">
+            <div class="col-sm-9">
+            <div class="row">
+            <div class="col-sm-6 mb-2">
+                    <div class="row align-items-center">
+                    <div class="col-auto">
+                        <label for="inputPassword6" class="col-form-label">Sort By :</label>
+                    </div>
+                    <div class="col-auto">
+                    <select class="form-select" aria-label="Default select example">
+                                 <option selected>choose one</option>
+                                    <option value="1">Male</option>
+                                    <option value="2">Female</option>
+                                    <option value="3">Other</option>
+                                    </select>
                     </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="condition-right-content">
-                            <div >
-                                <div class="card-header card text-white   text-center" style="background-color: #111D5E;" >
-                                  <h4 class="text-white">Summary</h4>
-                                </div>
-                                <div class="card-body pl-20" style="background-color:#EBF4FF ;">
+            </div>
+            </div>
+   </div> 
+          
 
-
-                                    <br>
-                               <p >Publish ON: 6 Nov 2022</p> 
-                               <p>Vacancy: 6 </p> 
-                               <p>Employeement Status: 6 Nov 2022</p> 
-                               <p>Experience: 2 to 3 years</p> 
-                               <p>Gender: Only males are allowed for apply</p> 
-                               <p>Age: age at last 27 years</p> 
-                               <p>Job Location: Gazipur</p> 
-                               <p>Salary: Negotiable</p> 
-                               <p>Application Dadline: 6 Nov 2022</p> <br><br>
-                              
-
-                                </div>
-                               
-                              </div><br>
-                            
-                           
-                        </div>
-                    </div>
-                    
-                    <div class="container">
-                        <div class="row">
-                          <div class="col text-center">
-                            <button class="btn btn-default text-white" style="background-color: #1E446F;">Apply for Jobs</button>
-                          </div>
-                        </div>
-                      </div>
-                     
-                      </div>
+            <div class="col-sm-9">
+            <div class="row" style="background-color:#EBF4FF;">
+                <div class="col-sm-2 m-auto">
+                <img src="assets/images/bg.png" alt="logo">
                 </div>
+                <div class="col-sm-10 mt-3">
+                <h6>Fashon Designer</h6>
+                <p>Bashunshora group<br>
+                Bashunshora group<br>
+                Bashunshora group</p>
+                
+                <a href="#"  style="float:right;" >See All ></a>
+                </div>
+            
+            </div>
+
+            <div class="row mt-2" style="background-color:#EBF4FF;">
+                <div class="col-sm-2 mt-4">
+                <img src="assets/images/food2.png" alt="logo">
+                </div>
+                <div class="col-sm-10 mt-3">
+               <b>Fashon Designer</b>
+                <p>Bashunshora group<br>
+                Bashunshora group<br>
+                Bashunshora group</p>
+                <a href="#"  style="float:right;" >See All ></a>
+                </div>
+            </div>
+
+            <div class="row mt-2" style="background-color:#EBF4FF;">
+                <div class="col-sm-2 mt-4">
+                <img src="assets/images/bkash.png" alt="logo">
+                </div>
+                <div class="col-sm-10 mt-3">
+               <b>Fashon Designer</b>
+                <p>Bashunshora group<br>
+                Bashunshora group<br>
+                Bashunshora group</p>
+                <a href="#"  style="float:right;" >See All ></a>
+                </div>
+            </div>
+
+            <div class="row mt-2" style="background-color:#EBF4FF;">
+                <div class="col-sm-2 mt-4">
+                <img src="assets/images/regal.png" alt="logo">
+                </div>
+                <div class="col-sm-10 mt-3">
+               <b>Fashon Designer</b>
+                <p>Bashunshora group<br>
+                Bashunshora group<br>
+                Bashunshora group</p>
+                <a href="#"  style="float:right;" >See All ></a>
+                </div>
+            </div>
+
+            <div class="row mt-2" style="background-color:#EBF4FF;">
+            <div class="col-sm-2 m-auto">
+            <img src="assets/images/danish.png" alt="logo">
+            </div>
+            <div class="col-sm-10 mt-3">
+            <b>Fashon Designer</b>
+                <p>Bashunshora group<br>
+                Bashunshora group<br>
+                Bashunshora group</p>
+            <a href="#"  style="float:right;" >See All ></a>
+            </div>
+            
+            </div><br>
+            <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-end">
+                <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+            </nav>
+            
+                            </div>
+
+            
+
+                   <div class="col-sm-3">
+            <div class="col-sm-11 m-auto">
+                    <form>
+                        <div class="mb-3">
+                        <h3>Location:</h3>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="State/Province">
+                        </div>
+                        <div class="mb-3">
+                        <select class="form-select" aria-label="Default select example">
+                                    <option selected>choose one</option>
+                                    <option value="1">Male</option>
+                                    <option value="2">Female</option>
+                                    <option value="3">Other</option>
+                                    </select>
+                                       </div>
+                        <button type="submit" class="btn btn-default text-white" style="background-color:#111D5E">Filter</button>
+
+                    
+                    </form>
+                    </div>
+                     <div class="col-sm-12 mt-5" style="margin-left:20px;">
+                        <h4>Job Type:</h4>
+                        <div class="form-check">
+                        <h6> <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked></h6>
+                        <label class="form-check-label" for="flexCheckDefault">
+                           <h5>Any Type:</h5>
+                        </label>
+                        </div>
+                        <div class="form-check">
+                        <h6><input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" ></h6>
+                        <label class="form-check-label" for="flexCheckChecked">
+                             <h5>Full-Time  (140)</h5>
+                        </label>
+                        </div>
+                        <div class="form-check">
+                        <h6> <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"></h6>
+                        <label class="form-check-label" for="flexCheckChecked">
+                        <h5>Part-Time  (140)</h5>
+                        </label>
+                        </div>
+                        <div class="form-check">
+                       <h6> <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"></h6>
+                        <label class="form-check-label" for="flexCheckChecked">
+                        <h5>half-Time  (140)</h5>
+                        </label>
+                        </div>
+                        <div class="form-check">
+                        <h6> <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"></h6>
+                        <label class="form-check-label" for="flexCheckChecked">
+                        <h5>Internship  (9500)</h5>
+                        </label>
+                        </div>
+                   
+                    </div>
+
+                    <div class="col-sm-12 mt-5" style="margin-left:20px">
+                       <h5>Salary/HR</h5>
+                        <div class="form-check">
+                        <h6> <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked " checked></h6>
+                        <label class="form-check-label" for="flexCheckDefault">
+                           <h5>Any Rate </h5>
+                        </label>
+                        </div>
+                        <div class="form-check">
+                        <h6> <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" ></h6>
+                        <label class="form-check-label" for="flexCheckChecked">
+                           <h5>$00 -- $10000</h5>
+                        </label>
+                        </div>
+                        <div class="form-check">
+                        <h6> <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"></h6>
+                        <label class="form-check-label" for="flexCheckChecked">
+                        <h5>$10000 -- $20000</h5>
+                        </label>
+                        </div>
+                        <div class="form-check">
+                        <h6> <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"></h6>
+                        <label class="form-check-label" for="flexCheckChecked">
+                        <h5>$20000 -- $30000</h5>
+
+                        </label>
+                        </div>
+                        <div class="form-check">
+                        <h6> <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"></h6>
+                        <label class="form-check-label" for="flexCheckChecked">
+                        <h5>$30000 -- $40000</h5>
+                        </label>
+                        </div>
+                   
+                    </div>
+                   
+              
+            </div>
+
+            </div>
             </div>
         </div>
         <!--End Terms And Condition Area-->
 
+        
         <!--Start Footer Area-->
         <div class="footer-area pt-30 pb-2">
             <div class="container">

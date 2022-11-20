@@ -41,4 +41,9 @@ class HomeController extends Controller
         return view('pages/multimedia');
     
     }
+
+    public function job_home() {
+        return view('pages/job_home');
+    
+    }
 }
